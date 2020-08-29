@@ -14,6 +14,11 @@ body {
 	font-family: 'Gurajada', serif;
 }
 
+nav {
+	text-align: center;
+	background-color: #333333;
+}
+
 a {
 	color: #dd0000;
 	text-decoration: none;
@@ -55,7 +60,15 @@ img {
 	margin: 0 auto;
 }
 
+ul {
+	padding-left: 20px;
+}
 
+#wrapper {
+	width:;
+	margin-left: auto;
+	margin-right: auto;	
+}
 
 nav a{
 
@@ -63,18 +76,39 @@ nav a{
 
 
 
-
 header {
-    background-color: [enter color here];
+    background-color: #FFED74;
     border: 1px black solid;
     padding: 20px;
 }
 
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
 
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
 
-- header = #FFED74
-- nav = #E8C66A
-- aside = #FFC675
-- article = #E89C6C
-- footer = #FF957E
-- div / section = #FFE2B8
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div/section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
