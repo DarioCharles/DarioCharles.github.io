@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Gurajada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #808080;
+	font-size: 20px;
+	line-height: 1.3;
+	font-weight: normal;
+	font-family: 'Gurajada', serif;
+}
+
+header > img {
+	text-align; left;
+	float: left;
+	background-color: red;
+	padding: 50px;
+	margin: auto;
+}
+
+section > img {
+	background-color: orange;
+	padding: 20px;
+	display: block;
+}
+
+nav {
+	text-align: center;
+	background-color: #333333;
+	font-size: 1.8em;
+	float: right;
+}
+/*
+LoVe HAte
+*/
+nav a:link{
+	color: #dd0000;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	margin-top: 0em;
+}
+
+/*nav a:visited{
+
+}*/
+
+nav a:hover {
+	background-color: #aaaaaa;
+}
+
+/*nav a:active{
+
+}*/
+
+
+
+.clearfixafter{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+
+
+/*div {
+	font-size: 1.2em;
+	width: 100%;
+	display: inline-block;
+}*/
+
+.hero {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+h1 {
+	font-family: 'PT Serif Caption', serif;
+	font-size: 1.5em;
+	font-weight:800;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'PT Serif Caption', serif;
+	font-size: 2em;
+	font-weight:800;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'PT Serif Caption', serif;
+	font-size: 1em;
+	font-weight:600;
+	text-transform: uppercase;
+	border-bottom: 4px solid black;
+	display: inline-block;
+}
+
+
+
+/*#aboutshakeilphoto {
+	float: left;
+}
+
+
+#aboutshakeilbio {
+	float: left;
+}
+*/
+
+.biophoto {
+	width: 550px;
+	float: left;
+	background-color: orange;
+	padding: 20px;
+	margin: 40px
+}
+/*
+p {
+	font-family: 'Gurajada', serif;
+	width:10em;
+	font-size: 1.2em;
+	width: 100%;
+	display: inline;
+	float: left;
+}
+
+.bio {
+	width: 550px;
+	float: left;
+	background-color: red;
+	margin: 60px
+	padding: 60px;
+
+}
+*/
+.bio {
+	font-family: 'Gurajada', serif;
+	font-size: 1.2em;
+	display: inline;
+	width: 550px;
+	float: left;
+	background-color: red;
+	margin: 60px
+	padding: 60px;
+
+
+}
+
+
+
+
+img {
+	display: block;
+	margin: none;
+	width: 350px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+#wrapper {
+	width:;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+
+
+
+
+
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 50px;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+    clear: both;
+}
+
+main {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
