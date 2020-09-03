@@ -6,6 +6,8 @@
 	margin: 0;
 }
 
+
+
 body {
 	background-color: #808080;
 	font-size: 20px;
@@ -14,8 +16,13 @@ body {
 	font-family: 'Gurajada', serif;
 }
 
+
+
+
+/*Code for Header*/
+
 header > img {
-	text-align; left;
+	text-align; centre;
 	float: left;
 	background-color: red;
 	padding: 50px;
@@ -26,7 +33,9 @@ section > img {
 	background-color: orange;
 	padding: 20px;
 	display: block;
+	width: 350;
 }
+
 
 nav {
 	text-align: center;
@@ -34,9 +43,11 @@ nav {
 	font-size: 1.8em;
 	float: right;
 }
+
 /*
 LoVe HAte
 */
+
 nav a:link{
 	color: #dd0000;
 	text-decoration: none;
@@ -58,25 +69,6 @@ nav a:hover {
 
 }*/
 
-
-
-.clearfixafter{
-	visibility: hidden;
-	display: block;
-	content: " ";
-	clear: both;
-	height: 0;
-	font-size: 0;
-}
-
-
-
-/*div {
-	font-size: 1.2em;
-	width: 100%;
-	display: inline-block;
-}*/
-
 .hero {
   display: block;
   width: 100%;
@@ -88,14 +80,29 @@ h1 {
 	font-size: 1.5em;
 	font-weight:800;
 	text-align: center;
+	margin: auto;
 }
+
 
 h2 {
 	font-family: 'PT Serif Caption', serif;
 	font-size: 2em;
 	font-weight:800;
 	text-align: center;
+	margin: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*Code for main*/
 
 h3 {
 	font-family: 'PT Serif Caption', serif;
@@ -104,19 +111,9 @@ h3 {
 	text-transform: uppercase;
 	border-bottom: 4px solid black;
 	display: inline-block;
+	text-align: center;
 }
 
-
-
-/*#aboutshakeilphoto {
-	float: left;
-}
-
-
-#aboutshakeilbio {
-	float: left;
-}
-*/
 
 .biophoto {
 	width: 550px;
@@ -125,60 +122,89 @@ h3 {
 	padding: 20px;
 	margin: 40px
 }
-/*
-p {
-	font-family: 'Gurajada', serif;
-	width:10em;
-	font-size: 1.2em;
-	width: 100%;
-	display: inline;
-	float: left;
-}
 
-.bio {
-	width: 550px;
-	float: left;
-	background-color: red;
-	margin: 60px
-	padding: 60px;
-
-}
-*/
 .bio {
 	font-family: 'Gurajada', serif;
 	font-size: 1.2em;
-	display: inline;
+	display: inline-block;
 	width: 550px;
-	float: left;
+	/*float: left;*/
 	background-color: red;
 	margin: 60px
 	padding: 60px;
-
-
 }
+
+
+.choreography h3, ul {
+   background-color: red;
+   width: 550px;
+   margins: none;
+   /*float: left;*/
+   /*display: inline;*/
+}
+
+.choreographyphoto {
+     background: orange;
+     width: 150px
+     margin: none;
+     padding: 60px;
+     display: inline;
+     float: left;
+	
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.bottomimages a {
+	margin: auto;
+	display: block;
+}
+
+.bottomimages img{
+	float: left;
+	width: 250px;
+	margin: none
+	display: inline;
+}
+
 
 
 
 
 img {
-	display: block;
-	margin: none;
+	/*display: block;
+	margin: none;*/
 	width: 350px;
 }
 
-ul {
+/*ul {
 	padding-left: 20px;
-}
+}*/
 
-#wrapper {
+/*#wrapper {
 	width:;
 	margin-left: auto;
 	margin-right: auto;	
-}
+}*/
 
 
 
 
+
+
+
+
+
+
+
+/*Code to see sections*/
 
 
 
@@ -194,7 +220,7 @@ nav {
     padding: 50px;
 }
 
-aside {
+/*aside {
     background-color: #FFC675;
     border: 1px black solid;
     padding: 20px;
@@ -204,7 +230,7 @@ article {
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
-}
+}*/
 
 footer {
     background-color: #FF957E;
@@ -218,3 +244,16 @@ main {
     border: 1px black solid;
     padding: 20px;
 }
+
+
+
+
+
+/*.clearfixafter{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}*/
