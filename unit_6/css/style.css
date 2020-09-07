@@ -6,8 +6,6 @@
 	margin: 0;
 }
 
-
-
 body {
 	background-color: #808080;
 	font-size: 20px;
@@ -16,32 +14,80 @@ body {
 	font-family: 'Gurajada', serif;
 }
 
-
-
-
-/*Code for Header*/
-
-header > img {
-	text-align; centre;
-	float: left;
-	background-color: red;
-	padding: 50px;
-	margin: auto;
+img {
+	width: 350px;
 }
 
-section > img {
-	background-color: orange;
-	padding: 20px;
+h1 {
+	font-family: 'PT Serif Caption', serif;
+	font-size: 1.5em;
+	font-weight:800px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'PT Serif Caption', serif;
+	font-size: 2em;
+	font-weight:800px;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'PT Serif Caption', serif;
+	font-size: 1em;
+	font-weight:600;
+	text-transform: uppercase;
+	border-bottom: 4px solid black;
+	display: inline-block;
+	text-align: center;
+}
+
+p {
+	font-family: font-family: 'Gurajada', serif;
+	font-size: 1.2em;
+	width:30em;
+}
+
+ul {
+	font-family: font-family: 'Gurajada', serif;
+	font-size: 1.2em;
+	width:30em;
+}
+
+hr {
+	font-weight: bolder;
+}
+
+.clearfix:after{
+	visibility: hidden;
 	display: block;
-	width: 350;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Header*/
+
+.logo img {
+	background-color: red;
+	margin: 5px;
+	padding: 35px;
+	float: left;
+	border: 1px black solid;
 }
 
 
 nav {
-	text-align: center;
-	background-color: #333333;
 	font-size: 1.8em;
+	background-color: #333333;
 	float: right;
+	margin: 5px;
 }
 
 /*
@@ -52,9 +98,7 @@ nav a:link{
 	color: #dd0000;
 	text-decoration: none;
 	display: inline-block;
-	float: left;
 	padding: 10px;
-	margin-top: 0em;
 }
 
 /*nav a:visited{
@@ -69,149 +113,122 @@ nav a:hover {
 
 }*/
 
-.hero {
-  display: block;
-  width: 100%;
-  margin: 0;
-}
 
-h1 {
-	font-family: 'PT Serif Caption', serif;
-	font-size: 1.5em;
-	font-weight:800;
-	text-align: center;
-	margin: auto;
-}
-
-
-h2 {
-	font-family: 'PT Serif Caption', serif;
-	font-size: 2em;
-	font-weight:800;
-	text-align: center;
-	margin: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*Code for main*/
-
-h3 {
-	font-family: 'PT Serif Caption', serif;
-	font-size: 1em;
-	font-weight:600;
-	text-transform: uppercase;
-	border-bottom: 4px solid black;
-	display: inline-block;
-	text-align: center;
-}
-
-
-.biophoto {
-	width: 550px;
-	float: left;
+.hero img {
 	background-color: orange;
-	padding: 20px;
-	margin: 40px
-}
-
-.bio {
-	font-family: 'Gurajada', serif;
-	font-size: 1.2em;
-	display: inline-block;
-	width: 550px;
-	/*float: left;*/
-	background-color: red;
-	margin: 60px
-	padding: 60px;
-}
-
-
-.choreography h3, ul {
-   background-color: red;
-   width: 550px;
-   margins: none;
-   /*float: left;*/
-   /*display: inline;*/
-}
-
-.choreographyphoto {
-     background: orange;
-     width: 150px
-     margin: none;
-     padding: 60px;
-     display: inline;
-     float: left;
-	
-}
-
-.clearfix:after{
-	visibility: hidden;
+	padding: 10px;
 	display: block;
-	content: " ";
-	clear: both;
-	height: 0;
-	font-size: 0;
+	width: 50%;
+	margin: 50px;
+	text-align: center;
 }
 
-.bottomimages a {
-	margin: auto;
-	display: block;
-}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------
 
-.bottomimages img{
-	float: left;
-	width: 250px;
-	margin: none
-	display: inline;
-}
+Main*/
 
 
-
-
-
-img {
-	/*display: block;
-	margin: none;*/
-	width: 350px;
-}
-
-/*ul {
-	padding-left: 20px;
-}*/
-
-/*#wrapper {
-	width:;
-	margin-left: auto;
-	margin-right: auto;	
-}*/
-
-
-
-
-
-
-
-
-
-
-
-/*Code to see sections*/
-
-
-
-header {
-    background-color: #FFED74;
+.bio_two_column, .choreography_two_column {
+    background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
+}
+
+#bioleft {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 30px;
+    float: left;
+    width: 35%;
+    text-align: center;
+    margin: 30px, 0;
+}
+
+#bioright {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 57%;
+}
+
+#choreographyleft {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 46%;
+    text-align: center;
+}
+
+#choreographyright{
+    background-color: pink;
+    border: 1px black solid;
+    padding: 26px;
+    float: right;
+    width: 46%;   
+    text-align: center;
+}
+
+
+
+/*
+#contactme {
+	display: block;	
+	text-align: center;
+}*/
+#contactme a {
+	font-family: font-family: 'Gurajada', serif;
+	font-size: 1.2em;
+	width:30em;
+	color: white;
+	text-align: center;
+}
+
+
+.four_column img {
+	width: 100px:;
+}
+
+#bottomimages {
+	bakcground-color: pink;
+	border: 1px black solid;
+	padding 20px;
+	float: left;
+	width: 90%;
+}
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------
+Footer*/
+
+footer a, footer p {
+	font-family: font-family: 'Gurajada', serif;
+	font-size: 1.2em;
+	width:30em;
+	color: white;
+}
+
+
+footer {
+	margin: 10px, 40px;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------
+Code to see sections*/
+
+
+
+header  {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 50px;
 }
 
 nav {
@@ -249,11 +266,3 @@ main {
 
 
 
-/*.clearfixafter{
-	visibility: hidden;
-	display: block;
-	content: " ";
-	clear: both;
-	height: 0;
-	font-size: 0;
-}*/
