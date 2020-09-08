@@ -164,6 +164,7 @@ Main*/
     float: left;
     width: 46%;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 
@@ -174,11 +175,14 @@ Main*/
     float: right;
     width: 46%;   
     text-align: left;
+
 }
 
 #choreographyright img {
     width: 350px;
+    margin-bottom: 30px;
 }
+
 
 
 #contactme a {
@@ -188,7 +192,6 @@ Main*/
 	color: white;
 	text-align: center;
 	display: block;
-	margin: 30px,50px;
 }
 
 
@@ -211,9 +214,6 @@ Main*/
 
 
 
-
-
-
 /*------------------------------------------------------------------------------------------------------------------------------------------
 Footer*/
 
@@ -222,12 +222,13 @@ footer a, footer p {
 	font-size: 1.2em;
 	width:30em;
 	color: white;
+	margin-left: 100px;
 }
 
 
-footer {
+/*footer {
 	margin: 10px, 40px;
-}
+}*/
 
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------
